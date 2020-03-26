@@ -1,0 +1,9 @@
+@import "0-reset.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700&display=swap");
+@import "1-landing.css";
+@import "2-services.css";
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}

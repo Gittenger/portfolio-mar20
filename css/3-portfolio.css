@@ -166,14 +166,14 @@
 }
 
 #portfolio .portfolio-container .box .hover-bg {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 53, 53, 0.8);
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio .portfolio-container .box:hover .hover-bg {
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 53, 53, 0.8);
 }
 
 #portfolio .portfolio-container .box .hover-bg .image-title-box {

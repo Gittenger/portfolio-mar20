@@ -1,0 +1,10 @@
+#blog {
+	padding: 100px 15px;
+	background: #f9fafc;
+}
+
+#blog .title h1{
+	font-size:3.5rem;
+	text-align: center;
+	font-weight: 700;
+}

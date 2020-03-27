@@ -4,6 +4,7 @@
 @import "2-services.css";
 @import "3-portfolio.css";
 @import "4-experience.css";
+@import "5-blog.css";
 
 .container {
   max-width: 1120px;

@@ -6,6 +6,7 @@
 @import "4-experience.css";
 @import "5-blog.css";
 @import "6-testimonials.css";
+@import "7-footer.css";
 
 .container {
   max-width: 1120px;

@@ -20,7 +20,7 @@ header .logo {
 
 header .logo:link,
 header .logo:visited {
-	color: unset;
+	color: #fff;
 }
 
 header .menu {
@@ -70,6 +70,39 @@ header .menu-btn:hover {
 	cursor: pointer;
 }
 
+.mobile-menu {
+	display: none;
+	background: #fff;
+	-webkit-box-shadow: 5px 12px 31px -1px rgba(0, 0, 0, 0.11);
+	-moz-box-shadow: 5px 12px 31px -1px rgba(0, 0, 0, 0.11);
+	box-shadow: 5px 12px 31px -1px rgba(0, 0, 0, 0.11);
+	flex-direction: column;
+	padding: 10px 20px 10px 15px;
+	height: 45vh;
+	width: 50%;
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	transform: translate3d(-100%, 0, 0);
+	transition: all 0.4s ease-in-out;
+}
+
+.mobile-menu.active {
+	transform: translate3d(0, 0, 0);
+}
+
+.mobile-menu a {
+	padding: 15px 20px;
+	text-decoration: none;
+	color: black;
+}
+
+.mobile-menu a:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #ff5253;
+}
+
 @media only screen and (max-width: 960px) {
 	header .menu a {
 		margin: 0 15px;
@@ -88,5 +121,9 @@ header .menu-btn:hover {
 
 	header .menu-btn {
 		display: block;
+	}
+
+	.mobile-menu {
+		display: flex;
 	}
 }
